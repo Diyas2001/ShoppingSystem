@@ -1,6 +1,6 @@
 package com.example.ShoppingSystem.Services;
 
-import com.example.ShoppingSystem.DataAccessObject.OrderRep;
+import com.example.ShoppingSystem.Repository.OrderRep;
 import com.example.ShoppingSystem.Services.Interfaces.OrderServiceIn;
 import com.example.ShoppingSystem.Tables.Orders;
 import org.springframework.beans.factory.annotation.Autowired;

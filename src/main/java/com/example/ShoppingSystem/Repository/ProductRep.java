@@ -1,6 +1,5 @@
-package com.example.ShoppingSystem.DataAccessObject;
+package com.example.ShoppingSystem.Repository;
 import com.example.ShoppingSystem.Tables.Products;
-import org.jetbrains.annotations.NotNull;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 import java.util.List;

@@ -1,6 +1,6 @@
 package com.example.ShoppingSystem.Services;
 
-import com.example.ShoppingSystem.DataAccessObject.UserRep;
+import com.example.ShoppingSystem.Repository.UserRep;
 import com.example.ShoppingSystem.Services.Interfaces.UserServiceIn;
 import com.example.ShoppingSystem.Tables.Users;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,7 +12,6 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
-import java.util.Scanner;
 
 @Service
 public class UserService implements UserServiceIn, UserDetailsService {

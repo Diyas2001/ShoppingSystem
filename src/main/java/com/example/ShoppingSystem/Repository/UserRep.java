@@ -1,4 +1,4 @@
-package com.example.ShoppingSystem.DataAccessObject;
+package com.example.ShoppingSystem.Repository;
 import com.example.ShoppingSystem.Tables.Users;
 import org.jetbrains.annotations.NotNull;
 import org.springframework.data.jpa.repository.JpaRepository;
