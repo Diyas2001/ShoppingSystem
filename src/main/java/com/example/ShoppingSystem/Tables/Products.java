@@ -14,7 +14,7 @@ public class Products {
     private Long id;
     private String name;
     private Double price;
-    @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+    @ManyToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
     @JoinColumn(name = "user_id")
     private Users users;
 }
